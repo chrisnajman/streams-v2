@@ -1,0 +1,78 @@
+/** 
+    Header
+**/
+
+.logo {
+    background-color: rgba(34,36,38,.15) !important;
+    span {
+        font-size: 1.5em;
+        font-style: italic;
+        font-weight: 900;
+        
+    }
+}
+
+.header-google {
+    padding: 5px 0 0 5px;
+    button { display: block;}
+}
+
+/** 
+    List Streams (home)
+**/
+
+.streamsContainer {
+    display:flex;
+    flex-direction:column;
+}
+
+.createStream { margin-left: auto;}
+
+.streamList {
+    display:flex;
+    flex-direction: column;
+    padding-left:0;
+
+    li {
+        display:flex;
+        padding-bottom: 0.5rem;
+        margin-bottom:0.5rem;
+        border-bottom: 2px solid rgba(34,36,38,.15);
+
+        &:last-child { border: 0; }
+    }
+
+    .content {
+        padding-left: 0.5rem;
+    }
+
+    .buttons { 
+        display:flex;
+        margin-left: auto;
+        align-items: center;
+
+        button:first-child { margin-right: 0.5rem; }
+        
+    }
+
+    h2 { 
+        font-size: 1rem; 
+        margin-bottom:0;
+        
+    }
+
+
+}
+
+/** 
+    Create new stream
+**/
+
+.streamsForm {
+    display:flex;
+    flex-direction: column;
+}
+
+.streamsFormSubmit {
+    margin-left: auto;
+}
